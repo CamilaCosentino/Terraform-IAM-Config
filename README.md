@@ -2,14 +2,18 @@
 
 ## Colaboradores
 Christian Lopez
+
 Sindy Soria
+
 Camila Cosentino
 
 ## Comandos para probarlo
- 
- terraform init
- 
- terraform plan
- 
- terraform apply 
-
+```bash
+terraform init
+```
+```bash
+terraform plan
+```
+```bash
+terraform apply
+```
