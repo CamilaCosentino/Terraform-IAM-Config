@@ -2,7 +2,7 @@
 # Creacion Perfil de Inicio de Sesión
 
 resource "aws_iam_user_login_profile" "CloudEngineer" {
-  user    = aws_iam_user.example.name
+  user    = aws_iam_user.CloudEngineer
   pgp_key = "keybase:some_person_that_exists"
 }
 
